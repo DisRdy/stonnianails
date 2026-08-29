@@ -187,7 +187,7 @@ export default function PriceListPage({ onBack }: PriceListPageProps) {
               Ready for a touch of luxury?
             </p>
             <a
-              href="https://wa.me/6289686392034?text=Halo%20STONNIANAILS%20%F0%9F%91%8B%E2%9C%A8%0ASaya%20ingin%20melakukan%20booking%20nail%20appointment.%0A%0ANama%3A%0ALayanan%3A%0ATanggal%3A%0AJam%3A%0A%0ATerima%20kasih%20%F0%9F%92%85%E2%9C%A8"
+              href="https://wa.me/6289686392034?text=Halo%20STONNIANAILS%20%F0%9F%91%8B%E2%9C%A8%0ASaya%20ingin%20melakukan%20nail%20appointment.%0A%0ANama%3A%0ALayanan%3A%0ATanggal%3A%0AJam%3A%0A%0ATerima%20kasih%20%F0%9F%92%85%E2%9C%A8"
               className="bg-[#8b0d3d] rounded-full w-full flex items-center justify-center gap-2 px-8 py-4"
             >
               <svg fill="none" viewBox="0 0 15.8333 13.3333" width="15.8333" height="13.3333">
