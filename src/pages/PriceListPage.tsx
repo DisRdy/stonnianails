@@ -21,8 +21,8 @@ const categories: CategoryData[] = [
   {
     heading: "Gel Polish",
     items: [
-      { label: "Classic Gel Manicure", price: "40k" },
-      { label: "Classic Gel Pedicure", price: "50k" },
+      { label: "Basic Gel Manicure", price: "40k" },
+      { label: "Basic Gel Pedicure", price: "50k" },
       { label: "Gel Removal (Done elsewhere)", price: "20k" },
     ],
   },
@@ -37,8 +37,7 @@ const categories: CategoryData[] = [
   {
     heading: "Extensions & Enhancements",
     items: [
-      { label: "Soft Gel Extensions", price: "150k" },
-      { label: "Hard Gel Extensions", price: "200k" },
+      { label: "Soft Tip Extensions", price: "150k" },
       { label: "Extension Removal", price: "40k" },
     ],
   },
@@ -47,7 +46,7 @@ const categories: CategoryData[] = [
 const overviewItems = [
   { label: "Gel Polish", from: "from 40k" },
   { label: "Nail Art", from: "from 80k" },
-  { label: "Extensions", from: "from 150k" },
+  { label: "Extensions", from: "from 120k" },
 ];
 
 function PriceItem({ label, price }: PriceItemData) {
