@@ -2,7 +2,7 @@ import svgPaths from "../../imports/svg-944hbp6db5";
 import logoImg from "./img/StonniaNails.png";
 
 interface HomePageProps {
-  onNavigate: (page: "gallery" | "pricelist") => void;
+  onNavigate: (page: "pricelist") => void;
 }
 
 function LogoMark() {
@@ -145,7 +145,7 @@ function NavLink({ icon, label, onClick, href }: NavLinkProps) {
 }
 
 interface LinksProps {
-  onNavigate: (page: "gallery" | "pricelist") => void;
+  onNavigate: (page: "pricelist") => void;
 }
 
 function Links({ onNavigate }: LinksProps) {
@@ -161,29 +161,11 @@ function Links({ onNavigate }: LinksProps) {
         }
       />
       <NavLink
-        label="Gallery"
-        onClick={() => onNavigate("gallery")}
-        icon={
-          <svg fill="none" viewBox="0 0 20 20" width="20" height="20">
-            <path d={svgPaths.p2d60240} fill="#24181B" />
-          </svg>
-        }
-      />
-      <NavLink
         label="WhatsApp for Booking"
         href="https://wa.me/"
         icon={
           <svg fill="none" viewBox="0 0 20 20" width="20" height="20">
             <path d={svgPaths.p3ffd6800} fill="#24181B" />
-          </svg>
-        }
-      />
-      <NavLink
-        label="Instagram"
-        href="https://instagram.com/"
-        icon={
-          <svg fill="none" viewBox="0 0 20 18" width="20" height="18">
-            <path d={svgPaths.p15b83880} fill="#24181B" />
           </svg>
         }
       />

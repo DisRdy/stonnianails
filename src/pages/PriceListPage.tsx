@@ -21,33 +21,33 @@ const categories: CategoryData[] = [
   {
     heading: "Gel Polish",
     items: [
-      { label: "Classic Gel Manicure", price: "Rp 40K" },
-      { label: "Classic Gel Pedicure", price: "Rp 50K" },
-      { label: "Gel Removal (Done elsewhere)", price: "Rp 20K" },
+      { label: "Classic Gel Manicure", price: "40k" },
+      { label: "Classic Gel Pedicure", price: "50k" },
+      { label: "Gel Removal (Done elsewhere)", price: "20k" },
     ],
   },
   {
     heading: "Nail Art & Design",
     items: [
-      { label: "Simple Design (Per Nail)", price: "Rp 10K" },
-      { label: "Complex Design (Per Nail)", price: "Rp 25K" },
-      { label: "Full Set Custom Art", price: "From Rp 120K" },
+      { label: "Simple Design (Per Nail)", price: "10k" },
+      { label: "Complex Design (Per Nail)", price: "25k" },
+      { label: "Full Set Custom Art", price: "from 120k" },
     ],
   },
   {
     heading: "Extensions & Enhancements",
     items: [
-      { label: "Soft Gel Extensions", price: "Rp 150K" },
-      { label: "Hard Gel Extensions", price: "Rp 200K" },
-      { label: "Extension Removal", price: "Rp 40K" },
+      { label: "Soft Gel Extensions", price: "150k" },
+      { label: "Hard Gel Extensions", price: "200k" },
+      { label: "Extension Removal", price: "40k" },
     ],
   },
 ];
 
 const overviewItems = [
-  { label: "Gel Polish", from: "From Rp40K" },
-  { label: "Nail Art", from: "From Rp80K" },
-  { label: "Extensions", from: "From Rp150K" },
+  { label: "Gel Polish", from: "from 40k" },
+  { label: "Nail Art", from: "from 80k" },
+  { label: "Extensions", from: "from 150k" },
 ];
 
 function PriceItem({ label, price }: PriceItemData) {
