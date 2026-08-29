@@ -187,7 +187,7 @@ export default function PriceListPage({ onBack }: PriceListPageProps) {
               Ready for a touch of luxury?
             </p>
             <a
-              href="https://wa.me/"
+              href="https://wa.me/qr/WEKKRK6MZOTUI1"
               className="bg-[#8b0d3d] rounded-full w-full flex items-center justify-center gap-2 px-8 py-4"
             >
               <svg fill="none" viewBox="0 0 15.8333 13.3333" width="15.8333" height="13.3333">

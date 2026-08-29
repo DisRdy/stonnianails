@@ -162,7 +162,7 @@ function Links({ onNavigate }: LinksProps) {
       />
       <NavLink
         label="WhatsApp for Booking"
-        href="https://wa.me/"
+        href="https://wa.me/qr/WEKKRK6MZOTUI1"
         icon={
           <svg fill="none" viewBox="0 0 20 20" width="20" height="20">
             <path d={svgPaths.p3ffd6800} fill="#24181B" />
@@ -171,7 +171,7 @@ function Links({ onNavigate }: LinksProps) {
       />
       <NavLink
         label="Location"
-        href="#"
+        href="https://maps.app.goo.gl/SgthTvvSQ5boEfy66"
         icon={
           <svg fill="none" viewBox="0 0 18 18" width="18" height="18">
             <path d={svgPaths.p1f25e00} fill="#24181B" />
