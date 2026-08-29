@@ -1,7 +1,5 @@
 import svgPaths from "../../imports/svg-944hbp6db5";
-
-const profilePhotoUrl =
-  "https://images.unsplash.com/photo-1613380833630-2b2c708b1814?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&w=200&q=80";
+import logoImg from "./img/StonniaNails.png";
 
 interface HomePageProps {
   onNavigate: (page: "gallery" | "pricelist") => void;
@@ -9,15 +7,7 @@ interface HomePageProps {
 
 function LogoMark() {
   return (
-    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-full">
-      <circle cx="40" cy="40" r="40" fill="#650029" />
-      <ellipse cx="40" cy="38" rx="14" ry="20" stroke="#ffe9eb" strokeWidth="1.5" fill="none" />
-      <path d="M32 28 Q40 20 48 28" stroke="#ffe9eb" strokeWidth="1.5" fill="none" />
-      <path d="M34 50 Q40 56 46 50" stroke="#ffe9eb" strokeWidth="1.2" fill="none" />
-      <circle cx="40" cy="32" r="3" fill="#ffe9eb" />
-      <text x="40" y="66" textAnchor="middle" fill="#ffe9eb" fontSize="7" fontFamily="sans-serif" fontWeight="600" letterSpacing="1">STONNIA</text>
-      <text x="40" y="74" textAnchor="middle" fill="#ffe9eb" fontSize="7" fontFamily="sans-serif" fontWeight="600" letterSpacing="1">NA✦LS</text>
-    </svg>
+    <img src={logoImg} alt="Stonnia Nails" className="size-full object-cover" />
   );
 }
 
@@ -50,7 +40,7 @@ function ProfileAvatar() {
       <div className="relative size-24 rounded-full shrink-0" style={{ background: "rgba(255,255,255,0)" }}>
         <div className="absolute inset-1 rounded-full overflow-hidden">
           <img
-            src={profilePhotoUrl}
+            src={logoImg}
             alt="Stonnia Nails profile"
             className="absolute inset-0 size-full object-cover"
           />
