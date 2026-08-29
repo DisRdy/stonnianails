@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inter:Regular';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter:Semi Bold';
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Playfair Display:SemiBold';
+  src: url('https://static.figma.com/font/PlayfairDisplay_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Playfair Display:Bold';
+  src: url('https://static.figma.com/font/PlayfairDisplay_wght__1') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

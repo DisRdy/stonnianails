@@ -1,0 +1,10 @@
+{
+  "description": "Showcases nail business services with a stylish, user-friendly website to attract clients and highlight offerings effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
