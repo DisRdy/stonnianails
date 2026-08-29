@@ -92,17 +92,20 @@ function HeroSection() {
         ))}
       </div>
       <div className="pt-4">
-        <div className="bg-[rgba(158,61,89,0.1)] flex items-center gap-1 px-6 py-2 rounded-full">
-          <div className="size-[9.333px] h-[11.667px] shrink-0">
-            <svg fill="none" viewBox="0 0 9.33333 11.6667" className="size-full">
-              <path d={svgPaths.p3d8f00c0} fill="#9E3D59" />
-            </svg>
-          </div>
+        <div className="bg-[rgba(158,61,89,0.1)] px-6 py-2 rounded-full">
           <p
-            className="text-[#9e3d59] text-[14px] leading-5 text-center whitespace-nowrap"
+            className="text-[#9e3d59] text-[14px] leading-5 text-center"
             style={{ fontFamily: "'Inter:Regular', sans-serif", fontWeight: 500 }}
           >
-            Bali | DM For Booking
+            <span className="inline-flex items-center gap-1">
+              <span className="inline-flex w-[9.333px] h-[11.667px] shrink-0">
+                <svg fill="none" viewBox="0 0 9.33333 11.6667" className="size-full">
+                  <path d={svgPaths.p3d8f00c0} fill="#9E3D59" />
+                </svg>
+              </span>
+              Bali | DM or WA For Booking
+            </span>
+            <br />By Appointment Only
           </p>
         </div>
       </div>

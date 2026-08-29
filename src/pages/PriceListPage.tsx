@@ -112,7 +112,7 @@ export default function PriceListPage({ onBack }: PriceListPageProps) {
           className="text-[#650029] text-[24px] leading-8 tracking-[-1.2px] whitespace-nowrap"
           style={{ fontFamily: "'Playfair Display:SemiBold', sans-serif", fontWeight: 600 }}
         >
-          Luxury Salon Logo
+          Price List
         </p>
         <div className="w-8" />
       </div>
@@ -211,25 +211,13 @@ export default function PriceListPage({ onBack }: PriceListPageProps) {
             className="text-[#650029] text-[32px] leading-10 whitespace-nowrap"
             style={{ fontFamily: "'Playfair Display:SemiBold', sans-serif", fontWeight: 600 }}
           >
-            Luxury Salon Logo
           </p>
-          <div className="flex gap-4 flex-wrap justify-center">
-            {["Privacy Policy", "Terms of Service", "Booking Rules"].map((link) => (
-              <a
-                key={link}
-                href="#"
-                className="text-[#574145] text-[12px] tracking-[1.2px] whitespace-nowrap hover:text-[#650029] transition-colors"
-                style={{ fontFamily: "'Inter:Semi Bold', sans-serif", fontWeight: 600 }}
-              >
-                {link}
-              </a>
-            ))}
-          </div>
+          
           <p
             className="text-[#574145] text-[14px] leading-5 text-center opacity-70"
             style={{ fontFamily: "'Inter:Regular', sans-serif", fontWeight: 400 }}
           >
-            © 2024 Luxury Nail Boutique. All rights reserved.
+            © 2024 Stonnia Nails. All rights reserved.
           </p>
         </div>
       </div>
