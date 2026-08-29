@@ -165,7 +165,7 @@ function Links({ onNavigate }: LinksProps) {
       />
       <NavLink
         label="WhatsApp for Booking"
-        href="https://wa.me/qr/WEKKRK6MZOTUI1"
+        href="https://wa.me/6289686392034?text=Halo%20STONNIANAILS%20%F0%9F%91%8B%E2%9C%A8%0ASaya%20ingin%20melakukan%20booking%20nail%20appointment.%0A%0ANama%3A%0ALayanan%3A%0ATanggal%3A%0AJam%3A%0A%0ATerima%20kasih%20%F0%9F%92%85%E2%9C%A8"
         icon={
           <svg fill="none" viewBox="0 0 20 20" width="20" height="20">
             <path d={svgPaths.p3ffd6800} fill="#24181B" />
