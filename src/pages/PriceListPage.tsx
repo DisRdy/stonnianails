@@ -37,7 +37,7 @@ const categories: CategoryData[] = [
   {
     heading: "Extensions & Enhancements",
     items: [
-      { label: "Soft Tip Extensions", price: "150k" },
+      { label: "Soft Tip Extensions", price: "120k" },
       { label: "Extension Removal", price: "40k" },
     ],
   },
